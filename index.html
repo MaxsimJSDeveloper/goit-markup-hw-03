@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,46 +15,50 @@
 </head>
 
 <body>
-    <header>
+    <header class="page-header">
 
         <!-- Nav -->
-        <nav>
+        <div class="top-sidebar container">
+        <nav class="page-nav">
             <a class="logotipe link" href="./index.html">Web<span class="logotipe-studio">Studio</span></a>
-            <ul class="links list">
-                <li>
-                    <a class="naw-list link" href="./index.html">Studio</a>
-                </li>
-                <li>
-                    <a class="naw-list link" href="">Portfolio</a>
-                </li>
-                <li>
-                    <a class="naw-list link" href="">Contacts</a>
-                </li>
-            </ul>
+            <menu class="nav-menu">
+                <ul class="nav-list list">
+                    <li>
+                        <a class="nav-link link" href="./index.html">Studio</a>
+                    </li>
+                    <li>
+                        <a class="nav-link link" href="">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="nav-link link" href="">Contacts</a>
+                    </li>
+                </ul>
+            </menu>
         </nav>
 
         <!-- Contacts -->
-        <address class="address">
+        <address class="page-address">
             <ul class="list">
                 <li>
-                    <a class="address-list link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    <a class="address-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </li>
                 <li>
-                   <a class="address-list  link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                   <a class="address-link  link" href="tel:+110001111111">+11 (000) 111-11-11</a>
                 </li>
             </ul>
         </address>
+        </div>
     </header>
 
     <main>
         <!-- Name -->
-        <section class="section-name">
+        <section class="section-name container">
             <h1 class="name">Effective Solutions for Your Business</h1>
             <button class="button" type="button">Order Service</button>
         </section>
 
         <!-- Section -->
-        <section>
+        <section class="container">
             <h2>не може бути пустим</h2>
             <ul class="list">
                 <li>
@@ -79,7 +84,7 @@
         </section>
 
         <!-- Our team -->
-        <section class="our-team">
+        <section class="our-team container">
             <h2 class="section-title-second">Our Team</h2>
             <ul class="list">
                 <!-- item, no list -->
@@ -110,7 +115,7 @@
         </section>
 
         <!-- Our portfolio -->
-        <section>
+        <section class="container">
             <h2 class="section-title-second">Our Portfolio</h2>
             <ul class="list">
                 <li>
@@ -148,7 +153,7 @@
     </main>
 
     <!-- Footer -->
-    <footer class="footer">
+    <footer class="footer container">
         <a class="logotipe link" href="./index.html">Web<span class="footer-logotipe-studio">Studio</span></a>
         <p class="footer-paragraph">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
     </footer>
