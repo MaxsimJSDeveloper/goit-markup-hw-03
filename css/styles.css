@@ -130,7 +130,9 @@ button {
         gap: 40px;
 }
 
-
+.address-list-item {
+        padding: 24px 0;
+}
 
 .address-link {
         color: #434455;
@@ -188,7 +190,23 @@ button {
 .button:focus {
         background-color: #404BBF;
 }
- /* Sections */
+ 
+
+
+/* Sections */
+.hiden {
+        display: none;
+}
+
+.page-component {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        min-width: 264px;
+
+}
+
+
 .section-title-third {
         color: #2E2F42;
         font-size: 20px;
