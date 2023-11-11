@@ -152,10 +152,7 @@ button {
 
 .section-size {
         display: block;
-        padding-top: 188px;
-        padding-bottom: 292px;
-        padding-left: 472px;
-        padding-right: 472px;
+        padding: 188px 0;
         width: 1440px;
         height: 600px;
         flex-shrink: 0;
@@ -169,6 +166,7 @@ button {
         font-weight: 700;
         line-height: 1.07;
         letter-spacing: 0.02em;
+        max-width: 496px;
 }
 
 /* button */
@@ -181,16 +179,13 @@ button {
 }
 
 .button-size {
-        display: inline-flex;
-        padding: 16px 32px;
-        align-items: flex-start;
-        gap: 10px;
+        display: block;
+        min-width: 169px;
+        height: 56px;
+        border: none;
+        background-color:#4d5ae5;
         border-radius: 4px;
-        background: var(--IRIS, #4D5AE5);
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-        margin-top: 48px;
-        margin-left: 164px;
-        margin-right: 163px;
 }
 
 .button:hover,
