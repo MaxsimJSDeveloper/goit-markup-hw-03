@@ -88,6 +88,7 @@ img {
 .page-nav {
         display:flex;
         align-items: center;
+        margin-right: 332px ;
 }
 
 .menu {
@@ -110,11 +111,24 @@ img {
         color: #404bbf;
 }
 
+.nav-menu-item {
+        padding: 24px 0;
+}
+
 /* Adress */
 .page-address {
         display:flex;
         letter-spacing: 0.02em;
         font-style: normal;
+}
+
+.address-list {
+        display: flex;
+        gap: 40px;
+}
+
+.address-list-item {
+        padding: 24px 0;
 }
 
 .address-link {
