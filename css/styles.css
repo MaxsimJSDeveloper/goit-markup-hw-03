@@ -109,6 +109,7 @@ button {
 
 .nav-link {
         color: #2e2f42;
+        padding: 24px 0;
 }
 
 .nav-link:hover,
@@ -116,9 +117,6 @@ button {
         color: #404bbf;
 }
 
-.nav-menu-item {
-        padding: 24px 0;
-}
 
 /* Adress */
 .page-address {
