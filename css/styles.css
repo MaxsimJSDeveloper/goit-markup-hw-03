@@ -90,9 +90,12 @@ img {
         align-items: center;
 }
 
-.nav-list {
+.menu {
         display: flex;
         gap: 40px;
+}
+
+.nav-list {
         color: #2E2F42;
         font-weight: 500;
         letter-spacing: 0.02em;
