@@ -7,7 +7,7 @@
 body {
         font-family: "Roboto", sans-serif;
         color: #434455;
-        font-size: 16px ;
+        font-size: 16px;
         line-height: 24px;
         background: #FFF;
         font-weight: 400;
@@ -84,14 +84,14 @@ button {
         text-transform: uppercase;
         color: #4D5AE5;
         margin-right: 76px;
-    }
+}
 
 .logotipe-studio {
         color: #2E2F42;
 }
 
 .page-nav {
-        display:flex;
+        display: flex;
         align-items: center;
         margin-right: 332px;
 }
@@ -120,7 +120,7 @@ button {
 
 /* Adress */
 .page-address {
-        display:flex;
+        display: flex;
         letter-spacing: 0.02em;
         font-style: normal;
 }
@@ -140,7 +140,7 @@ button {
 
 .address-link:hover,
 .address-link:focus {
-       color: #404bbf;
+        color: #404bbf;
 }
 
 /* Sections */
@@ -181,7 +181,7 @@ button {
         min-width: 169px;
         height: 56px;
         border: none;
-        background-color:#4d5ae5;
+        background-color: #4d5ae5;
         border-radius: 4px;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
@@ -190,7 +190,7 @@ button {
 .button:focus {
         background-color: #404BBF;
 }
- 
+
 
 
 /* Sections */
