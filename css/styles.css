@@ -205,7 +205,6 @@ button {
         margin: -1px;
         border: 0;
         padding: 0;
-
         white-space: nowrap;
         clip-path: inset(100%);
         clip: rect(0 0 0 0);
@@ -239,6 +238,10 @@ button {
 }
 
 /* Our team */
+.third-section-size {
+        height: 732px;
+}
+
 .our-team {
         background-color: #F4F4FD;
 }
@@ -252,8 +255,19 @@ button {
         color: #2e2f42;
 }
 
+.our-team-list {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+}
+
 .our-team-item {
         background-color: #FFFFFF;
+        display: inline-flex;
+        padding-bottom: 0px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
 }
 
