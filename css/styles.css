@@ -293,7 +293,7 @@ button {
         padding: 120px 0;
 }
 
-.our-portfolio-section-title-second {
+.our-portfolio-section-title {
         font-size: 36px;
         line-height: 1.11;
         text-align: center;
@@ -319,6 +319,10 @@ button {
         flex-direction: column;
         align-items: flex-start;
         flex-shrink: 0;
+}
+
+.our-portfolio-section-title-third {
+        margin-bottom: 8px;
 }
 
 .portfolio {
