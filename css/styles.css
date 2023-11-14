@@ -151,8 +151,6 @@ button {
 .section-size {
         display: block;
         padding: 188px 0;
-        width: 1440px;
-        height: 600px;
         flex-shrink: 0;
 }
 
@@ -165,6 +163,8 @@ button {
         line-height: 1.07;
         letter-spacing: 0.02em;
         max-width: 496px;
+        margin-left: auto;
+        margin-right: auto;
 }
 
 /* button */
@@ -184,6 +184,9 @@ button {
         background-color: #4d5ae5;
         border-radius: 4px;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+        margin-top: 48px;
+        margin-left: auto;
+        margin-right: auto;
 }
 
 .button:hover,
@@ -239,7 +242,6 @@ button {
 
 /* Our team */
 .third-section-size {
-        height: 732px;
         padding: 120px 0;
 }
 
@@ -314,15 +316,10 @@ button {
 .our-portfolio-item {
         display: flex;
         width: 360px;
-        height: 420px;
         padding-bottom: 0px;
         flex-direction: column;
         align-items: flex-start;
         flex-shrink: 0;
-}
-
-.our-portfolio-section-title-third {
-        margin-bottom: 8px;
 }
 
 .portfolio {
@@ -335,9 +332,8 @@ button {
         align-self: stretch;
         padding: 32px 16px;
         border: 1px solid #e7e9fc;
-        margin-bottom: 8px;
         border-top: none;
-        margin-bottom: 8px;
+
 }
 
 /* Footer */
