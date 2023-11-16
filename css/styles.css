@@ -1,4 +1,4 @@
-
+/* ============== COMMON STYLES ============== */
 body {
         font-family: "Roboto", sans-serif;
         color: #434455;
@@ -26,21 +26,20 @@ p {
 
 ul,
 ol {
-        margin: 0;
-        padding: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-left: 0;
 }
 
 img {
         display: block;
         max-width: 100%;
+        height: auto;
 }
 
 button {
         cursor: pointer;
 }
-
-
-
 
 .link {
         text-decoration: none;
@@ -50,10 +49,8 @@ button {
         list-style-type: none;
 }
 
-
-
-.page-header {
-        border-bottom: 1px solid #e7e9fc;
+.section-indentation {
+        padding: 120px 0;
 }
 
 .container {
@@ -61,14 +58,18 @@ button {
         margin: 0 auto;
         padding: 0 15px;
 }
+/* ============== COMMON STYLES ============== */
+
+
+/* ========================= NAV ================================== */
+.page-header {
+        border-bottom: 1px solid #e7e9fc;
+}
 
 .top-sidebar {
         display: flex;
 }
 
-
-
-/* Nav */
 .logotipe {
         font-family: "Raleway", sans-serif;
         font-weight: 700;
@@ -110,9 +111,10 @@ button {
 .nav-link:focus {
         color: #404bbf;
 }
+/* ============================== NAV ======================================= */
 
 
-/* Adress */
+/* ================================== ADDRESS =============================== */
 .page-address {
         display: flex;
         letter-spacing: 0.02em;
@@ -136,8 +138,9 @@ button {
 .address-link:focus {
         color: #404bbf;
 }
+/* ================================== ADDRESS ============================== */
 
-/* Sections */
+/* ================================ NAME =================================== */
 .section-name {
         background-color: #2e2f42;
         display: block;
@@ -157,8 +160,9 @@ button {
         margin-left: auto;
         margin-right: auto;
 }
+/* ================================ NAME =================================== */
 
-/* button */
+/* =============================== BUTTON ================================== */
 .button {
         color: #FFF;
         font-weight: 500;
@@ -177,20 +181,14 @@ button {
         margin-right: auto;
 }
 
-
-
 .button:hover,
 .button:focus {
         background-color: #404BBF;
 }
+/* ============================ BUTTON ================================== */
 
 
-
-/* Sections */
-.content-section {
-        padding: 120px 0;
-}
-
+/* ============================ CONTENT ================================= */
 .visually-hidden {
         position: absolute;
         width: 1px;
@@ -229,11 +227,11 @@ button {
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
+/* =============================== CONTENT ===================================== */
 
-/* Our team */
+/* ================================= OUR TEAM ==================================*/
 .our-team-section {
         background-color: #F4F4FD;
-        padding: 120px 0;
 }
 
 .our-team-section-title {
@@ -274,12 +272,10 @@ button {
 .our-team-section-paragraph {
         text-align: center;
 }
+/* ================================= OUR-TEAM ==================================*/
 
 
-/* portfolio */
-.our-portfolio-section {
-        padding: 120px 0;
-}
+/* ================================== PORTFOLIO ================================ */
 
 .our-portfolio-section-title {
         font-size: 36px;
@@ -309,11 +305,7 @@ button {
         flex-shrink: 0;
 }
 
-.our-portfolio-section-title-third {
-        margin-bottom: 8px;
-}
-
-.portfolio {
+.our-portfolio-item-content {
         display: flex;
         padding: 0px 16px;
         flex-direction: column;
@@ -327,7 +319,15 @@ button {
 
 }
 
-/* Footer */
+.our-portfolio-section-title-third {
+        margin-bottom: 8px;
+}
+
+
+/* ========================= PORTFOLIO ========================== */
+
+
+/*========================== FOOTER =============================*/
 .page-footer {
         background-color: #2e2f42;
         padding: 100px 0;
@@ -347,3 +347,4 @@ button {
         letter-spacing: 0.02em;
         max-width: 264px;
 }
+/*============================= FOOTER =========================*/
